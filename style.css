@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
 .header {
@@ -10,21 +14,21 @@ body {
 }
 
 .header .title {
-  color: white; !important;
+  color: white;
   font-size: 48px;
 }
 
 .menu {
   background-color: lightgray;
   padding: 20px;
-  text-align: center; /* Added */
+  text-align: center;
 }
 
 .menu ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: inline-block; /* Added */
+  display: inline-block;
 }
 
 .menu ul li {
@@ -42,4 +46,13 @@ body {
 
 .menu ul li a:hover {
   background-color: gray;
+}
+
+#donateBtn {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  font-size: 24px;
 }
