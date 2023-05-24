@@ -9,9 +9,9 @@ body {
   text-align: center;
 }
 
-.header h1 {
-  color: black;
-  font-size: 24px;
+.header .title {
+  color: white;
+  font-size: 48px;
 }
 
 .menu {
