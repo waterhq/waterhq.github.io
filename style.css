@@ -4,7 +4,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  height: 100vh;
+  flex-direction: column; /* Added */
 }
 
 .header {
@@ -55,4 +56,10 @@ body {
   height: 200px;
   border-radius: 20px;
   font-size: 24px;
+  margin-bottom: 20px; /* Added */
+}
+
+.back-link {
+  text-align: left; /* Added */
+  margin-left: 20px; /* Added */
 }
