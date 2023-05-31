@@ -63,3 +63,7 @@ body {
   text-align: left; /* Added */
   margin-left: 20px; /* Added */
 }
+
+.main-content {
+  margin: 0 50px; /* Adjust the margin values as desired */
+}
