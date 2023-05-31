@@ -10,7 +10,7 @@ body {
 
 .header {
   background-color: blue;
-  padding: 80px;
+  padding: 200px;
   text-align: center;
 }
 
@@ -65,5 +65,5 @@ body {
 }
 
 .main-content {
-  margin: 0 175px; /* Adjust the margin values as desired */
+  margin: 0 200px; /* Adjust the margin values as desired */
 }
